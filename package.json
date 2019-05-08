@@ -1,0 +1,25 @@
+{
+  "name": "ta-course-web-service-testing",
+  "version": "1.0.0",
+  "description": "Fake REST API with JSON Server",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node download.js",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verebd/ta-course-web-service-testing.git"
+  },
+  "author": "Dóra Veréb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "json-server": "^0.14.2",
+    "node-fetch": "^2.5.0",
+    "yargs": "^13.2.2"
+  }
+}
